@@ -23,8 +23,8 @@ end
 
 | パスの形 | コントローラ | アクション | 対応するソースコード |
 | --- | --- | --- | --- |
-| ★    | ★    | ★    | `root "top#index"`                        |
-| ★    | ★    | ★    | `get "about" => "top#about", as: "about"` |
+| /    |top   | index| `root "top#index"`                        |
+| /about| top   | about    | `get "about" => "top#about", as: "about"` |
 
 ヒント:
 
